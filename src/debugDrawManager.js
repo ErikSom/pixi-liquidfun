@@ -22,7 +22,6 @@ export const init = (_world, _PTM, Box2D) => {
 	`;
 	const debugDraw = makeDebugDraw(ctx, PTM, Box2D);
 	world.SetDebugDraw(debugDraw);
-	resize();
 }
 
 export const resize = () => {

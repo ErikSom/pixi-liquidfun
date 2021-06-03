@@ -328,6 +328,6 @@
        drawPoint(vertex, sizeMetres);
      }
    });
-   debugDraw.SetFlags(e_shapeBit | e_jointBit | e_particleBit);
+   debugDraw.SetFlags(e_shapeBit | e_jointBit /*| e_particleBit*/);
    return debugDraw;
  };
